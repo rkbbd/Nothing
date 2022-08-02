@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\Nothing\Nothing\bin\Debug\net6.0\Nothing.deps.json
+C:\Users\USER\source\repos\Nothing\Nothing\bin\Debug\net6.0\Nothing.dll
+C:\Users\USER\source\repos\Nothing\Nothing\bin\Debug\net6.0\ref\Nothing.dll
+C:\Users\USER\source\repos\Nothing\Nothing\bin\Debug\net6.0\Nothing.pdb
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.GlobalUsings.g.cs
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.AssemblyInfo.cs
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.dll
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\ref\Nothing.dll
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.pdb
+C:\Users\USER\source\repos\Nothing\Nothing\obj\Debug\net6.0\Nothing.csproj.AssemblyReference.cache
