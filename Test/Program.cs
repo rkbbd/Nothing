@@ -1,5 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Newtonsoft.Json;
+using Nothing;
+using System.Text.Json;
 using Test;
 
-Console.WriteLine("Hello, World!");
-Nothing.Generate<Person>.Nothing(10);
+var personList = Generate<Person>.Anything(10);
+var json = JsonConvert.SerializeObject(personList, Formatting.Indented);
+
+Console.WriteLine(json);
