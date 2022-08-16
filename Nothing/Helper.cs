@@ -30,7 +30,7 @@ namespace Nothing
                         var propertyNeme = propertyInfos[i].Name.ToLower();
                         if (propertyNeme.Equals("id"))
                         {
-                            propertyInfos[i].SetValue(item, count.ToString(), null);
+                            propertyInfos[i].SetValue(item, count, null);
                             continue;
                         }
                         else if (propertyNeme.Contains("id") && propertyInfos[i].GetType() == typeof(string))
@@ -70,7 +70,7 @@ namespace Nothing
                         else if (propertyNeme.Contains("age"))
                         {
                             int randomNo = rand.Next(0, 100);
-                            propertyInfos[i].SetValue(item, randomNo.ToString(), null);
+                            propertyInfos[i].SetValue(item, randomNo, null);
                             continue;
                         }
                         else if ((propertyNeme.Contains("phone") || propertyNeme.Contains("mobile") || propertyNeme.Contains("contact")) && propertyInfos[i].GetType() == typeof(string))
