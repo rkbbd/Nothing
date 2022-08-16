@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Test/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "Nothing": "1.0.0"
+          "Anything": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "Test.dll": {}
@@ -23,7 +23,10 @@
           }
         }
       },
-      "Nothing/1.0.0": {
+      "Anything/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
         "runtime": {
           "Nothing.dll": {}
         }
@@ -43,7 +46,7 @@
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
-    "Nothing/1.0.0": {
+    "Anything/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

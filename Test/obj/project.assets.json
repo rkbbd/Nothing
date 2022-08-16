@@ -11,14 +11,17 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Nothing/1.0.0": {
+      "Anything/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
         "compile": {
-          "bin/placeholder/Nothing.dll": {}
+          "bin/placeholder/Anything.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Nothing.dll": {}
+          "bin/placeholder/Anything.dll": {}
         }
       }
     }
@@ -51,7 +54,7 @@
         "packageIcon.png"
       ]
     },
-    "Nothing/1.0.0": {
+    "Anything/1.0.0": {
       "type": "project",
       "path": "../Nothing/Nothing.csproj",
       "msbuildProject": "../Nothing/Nothing.csproj"
@@ -59,8 +62,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Newtonsoft.Json >= 13.0.1",
-      "Nothing >= 1.0.0"
+      "Anything >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {

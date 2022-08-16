@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\USER\\source\\repos\\New folder\\Nothing\\Nothing\\Nothing.csproj",
-        "projectName": "Nothing",
+        "projectName": "Anything",
         "projectPath": "C:\\Users\\USER\\source\\repos\\New folder\\Nothing\\Nothing\\Nothing.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\USER\\source\\repos\\New folder\\Nothing\\Nothing\\obj\\",
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

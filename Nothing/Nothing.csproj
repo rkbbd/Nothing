@@ -4,6 +4,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Description>Generate test data. Quickly.</Description>
+    <RepositoryUrl>https://github.com/rkbbd/Nothing</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>Anything</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MD. Rakib Hasan</Authors>
+    <Copyright>mit</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="data\seed.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>

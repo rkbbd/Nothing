@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Anything</id>
+    <version>1.0.0</version>
+    <authors>MD. Rakib Hasan</authors>
+    <description>Generate test data. Quickly.</description>
+    <copyright>mit</copyright>
+    <repository type="git" url="https://github.com/rkbbd/Nothing" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\USER\source\repos\New folder\Nothing\Nothing\bin\Release\net6.0\Nothing.dll" target="lib\net6.0\Nothing.dll" />
+  </files>
+</package>
