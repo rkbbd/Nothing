@@ -1,4 +1,4 @@
-# Nothing
+# Nothing (something from nothing)
 
 #### Initializing Instance Variables
 An instance variable is assigned an initial value with dummy data in its declaration.
