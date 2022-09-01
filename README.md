@@ -2,6 +2,18 @@
 
 #### Initializing Instance Variables
 An instance variable is assigned an initial value with dummy data in its declaration.
+
+#### Where can I get it?<br>
+First, install NuGet. Then, install AutoPush from the package manager console:
+```    
+PM> Install-Package AutoPush
+```
+Or from the .NET CLI as:
+```
+dotnet add package AutoPush 
+```
+### How do I get started?
+No need to configure anything, just add namespace (```using Nothing```) and use it.
 ```c#
 var personList = Generate<Person>.Anything(3);
 ```
