@@ -6,11 +6,11 @@ An instance variable is assigned an initial value with dummy data in its declara
 #### Where can I get it?<br>
 First, install NuGet. Then, install AutoPush from the package manager console:
 ```    
-PM> Install-Package AutoPush
+PM> Install-Package Nothing.Anything -Version 1.0.0
 ```
 Or from the .NET CLI as:
 ```
-dotnet add package AutoPush 
+dotnet add package Nothing.Anything 
 ```
 ### How do I get started?
 No need to configure anything, just add namespace (```using Nothing```) and use it.
